@@ -46,7 +46,7 @@
 # control resulting in false positive curated peak files in bed format.
 #
 
-<MACS_directory>/bin/macs -t <Aligned-WT-ChIP-seq-file.sam> -c <Aligned-KO-ChIP-seq-file.sam> -n KOIN-corrected-peak-file -f SAM -g 1.87e9 -p 1e-4 --on-auto 
+<MACS_directory>/bin/macs -t <Aligned-WT-ChIP-seq-file.sam> -c <Aligned-KO-ChIP-seq-file.sam> -n KOIN-corrected-peak-file -f SAM -g 1.87e9 -s 51 --bw 150 -p 1e-4 --on-auto 
 
 
 
